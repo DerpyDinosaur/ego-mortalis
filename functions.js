@@ -50,5 +50,5 @@ function dropLeaf(){
     	}
     }
 
-    document.getElementById("counter").innerHTML = currentLeaf + timeSpent - 10;
+    document.getElementById("counter").innerHTML = currentLeaf + timeSpent - leafDropOffset;
 }
